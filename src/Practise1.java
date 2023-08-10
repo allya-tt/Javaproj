@@ -10,4 +10,5 @@ public class Practise1 {
         } else {
         System.out.println("Привет, " + name + "!");}
     }
+
 }
