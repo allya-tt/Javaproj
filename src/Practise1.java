@@ -9,6 +9,15 @@ public class Practise1 {
             System.out.println("Привет, Неизвестный!");
         } else {
         System.out.println("Привет, " + name + "!");}
+        //        int i = a;
+//        while (i <= b) {
+//            if (i%2 == 0) {
+//                evenSum = evenSum + i;
+//            ++evenCount;}
+//            sum = sum + i;
+//            ++count;
+//            ++i;
+//        }
     }
 
 }
