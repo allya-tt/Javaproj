@@ -40,4 +40,7 @@ public class Person {
     public String toString(){
         return "{" + familyName + " " + name + " " + middleName + "}";
     }
+    public void printName() {
+        System.out.println("Name = " + name);
+    }
 }
