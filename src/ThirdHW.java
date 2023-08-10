@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Thirdexc {
+public class ThirdHW {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число: ");

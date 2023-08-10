@@ -1,7 +1,7 @@
-public class Secondex {
+public class SecondHW {
     public static void main(String[] args) {
         for (int i = 100; i>=1; i--){
-            if (checkNumber(i) == true) {
+            if (checkNumber(i)) {
                 System.out.println(i);
             }
         }
