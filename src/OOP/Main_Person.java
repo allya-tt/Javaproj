@@ -1,6 +1,8 @@
 package OOP;
 
+
 import java.util.Scanner;
+
 
 public class Main_Person {
     public static void main(String[] args) {
@@ -13,7 +15,11 @@ public class Main_Person {
 
         System.out.println("Введите фамилию: ");
         String familyName = scanner.nextLine();
-        Person person = new Person(name, middleName, familyName);
-        person.printName();
+        System.out.println("Введите возраст: ");
+        int age = scanner.nextInt();
+        Person person = new Person(name, middleName, familyName, age);
+        person.printBirthAge();
+        person.setAge(45);
+        System.out.println("The year of birth is " + person.getBirthYear());
     }
 }
